@@ -1,0 +1,39 @@
+
+body {
+    background-image: url('images/Covid19.jpg');
+    /* linear-gradient(to bottom right, rgb(201, 238, 226),  rgb(138, 161, 230)); */
+}
+
+h1{
+    color: cyan;
+    
+}
+
+#date-today{
+    color: aquamarine;
+}
+
+
+header{
+
+    margin-top: 50px;
+}
+
+.search-box{
+    text-align: center;
+    margin: 30px;
+}
+
+i{
+    margin-left: 23px;
+    margin-top: 23px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 28px -6px rgba(0,0,0,0.71);
+}
+
+/* .card-title{
+    background-color: salmon;
+    border-radius: 10px;
+} */
