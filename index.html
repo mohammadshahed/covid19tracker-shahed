@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="images/Shahed.jpg" width="200" height="220" class="rounded-circle" alt="">
+                        <img src="images/Shahed.jpg" width="185" height="185" class="rounded-circle" alt="">
                     </div>
                     <div class="col-md-9">
                         <div class= "mt-5">
@@ -139,6 +139,11 @@
                 </div>
             </div>
         </div>
+        <div class="row row-cols-1">
+            <div class="container">
+                <h4><small>Developed by</small> Mohammad Shaheduzzaman Shahed <a href="https://www.powerxit.com">PowerX IT</a> </h4>
+            </div>
+        </div>
     </main>
 
 
@@ -175,8 +180,8 @@
 
 
                     document.getElementById('country-flag').innerHTML += `
-                    : <span style="color: royalblue;">${countryName}</span>
-                    <img src="${flag}" alt="country flag" style="width: 50px;">
+                    : <span style="color: orange;">${countryName}</span>
+                    <img src="${flag}" alt="country flag" style="width: 70px;">
                     `;
 
                     activeCase.innerHTML += `
@@ -235,7 +240,7 @@
 
         function dateToday() {
             let today = new Date()
-            console.log(today);
+            //console.log(today);
 
             document.getElementById('date-today').innerText = today;
         }

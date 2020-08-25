@@ -4,9 +4,16 @@ body {
     /* linear-gradient(to bottom right, rgb(201, 238, 226),  rgb(138, 161, 230)); */
 }
 
-h1{
+h1, h4{
     color: cyan;
     
+}
+a{
+    color: yellow;
+}
+a:hover{
+    text-decoration: none;
+    color: orange;
 }
 
 #date-today{
