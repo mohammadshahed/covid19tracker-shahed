@@ -2,4 +2,4 @@
 
 API: https://corona.lmao.ninja/v2/countries/:country
 
-![](images/covid-19-live-tracker-preview.png)
+![](images/covid-19-live-tracker-preview.jpg)
